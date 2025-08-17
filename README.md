@@ -12,7 +12,7 @@ Este projeto tem como objetivo prever a evasão de clientes (churn) em uma empre
 
 ## 📈 Resultados
 
-- Acurácia: ~77%
+- Acurácia: ≅77%
 - Melhor modelo: Random Forest
 - Principais fatores de churn: baixo engajamento nos serviços, tipo de internet, tempo de contrato e perfil do cliente.
 
