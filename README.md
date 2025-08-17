@@ -1,27 +1,30 @@
-# 📊 Análise de Evasão de Clientes - Telecom X (Parte 1) | Challenge ONE Oracle + Alura
+# 📊 Previsão de Evasão de Clientes (Churn Prediction) - Telecom X (Parte 2) | Challenge ONE Oracle + Alura
 
-Este projeto tem como objetivo analisar os fatores que influenciam a evasão de clientes em uma empresa de telecomunicações. A partir de um conjunto de dados realista, realizei limpeza, tratamento, exploração e visualização dos dados para identificar padrões e gerar insights que possam apoiar estratégias de retenção de clientes.
-
-## 📈 Principais Insights
-
-- O gênero não influencia significativamente a taxa de evasão.
-- Clientes com contrato mensal apresentam maior propensão ao churn em comparação com contratos anuais ou bianuais.
-- O método de pagamento electronic check está fortemente associado a maiores taxas de cancelamento.
+Este projeto tem como objetivo prever a evasão de clientes (churn) em uma empresa de telecomunicações, utilizando técnicas de Machine Learning. A previsão de churn é fundamental para auxiliar a empresa a identificar clientes em risco de cancelamento e, assim, implementar estratégias de retenção mais eficazes.
 
 ## 🧰 Tecnologias utilizadas
 
 - Python
-- Pandas
-- Numpy
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+- Pandas, NumPy
+- Matplotlib, Seaborn 
+- Scikit-learn 
+- Random Forest, Regressão Logística
+
+## 📈 Resultados
+
+- Acurácia: ~77%
+- Melhor modelo: Random Forest
+- Principais fatores de churn: baixo engajamento nos serviços, tipo de internet, tempo de contrato e perfil do cliente.
 
 ## 📌 Conclusão
 
-- Criar incentivos para que clientes migrem de contratos mensais para contratos de maior duração.
-- Investigar possíveis dificuldades ou insatisfações relacionadas ao uso de electronic check.
-- Fortalecer programas de fidelização e benefícios para clientes de longo prazo.
+O modelo de Random Forest fornece insights relevantes para estratégias de retenção. Recomenda-se que a empresa invista em:
+
+- Pacotes de serviços combinados com descontos.
+- Benefícios progressivos para clientes novos.
+- Revisão da proposta de valor da internet fibra óptica.
+
+Com isso, o projeto mostra que a ciência de dados pode apoiar diretamente na redução da evasão e na tomada de decisões estratégicas.
 
 ## 💬 Contribuições
 
